@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots circular autoplay>
+<swiper-item>
+  <image src="/images/ys1.jpg" ></image>
+  </swiper-item>
+  <swiper-item>
+  <image src="/images/ys2.jpg" ></image>
+</swiper-item>
+<swiper-item>
+  <image src="/images/R-C.jpg" ></image>
+</swiper-item>
+</swiper>
+<button bindtap="gotoMessage">跳转到message</button>

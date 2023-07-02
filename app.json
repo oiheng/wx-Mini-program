@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/message/message",
+        "pages/contact/contact"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2d4d6d",
+        "navigationBarTitleText": "hh空间",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homeact.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/messageact.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "images/contact.png",
+        "selectedIconPath": "images/contactact.png"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
